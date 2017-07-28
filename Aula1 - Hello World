@@ -1,0 +1,38 @@
+package edu.java.aula1;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		
+		String nome = "Hello World";
+		System.out.println(nome);
+		
+		int valor1 = 10;
+		int valor2 = 20;
+		int soma = somar (valor1, valor2);
+		
+		System.out.println(soma);
+		
+		
+	}
+	
+	/**
+	 * Faz a soma algébrica entre os dois números
+	 * @param valor1 - Valor do primeiro elemento a ser somado;
+	 * @param valor2 - Valor do segundo elemento a ser somado;
+	 * @return Retorna a soma do valor1 com o valor2;
+	 */
+	
+	public static int somar (int valor1, int valor2)
+	{
+		int soma = valor1 + valor2;
+		return soma;
+	}
+	
+	public static Double fjlc (int valo1, int valor2)
+	{
+		return Math.abs(valor2)*Math.pow(valor1, valor2);
+	}
+}
